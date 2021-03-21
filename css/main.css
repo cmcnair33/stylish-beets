@@ -3,7 +3,26 @@ font-family: 'PT Serif', serif; */
 
 html {
   box-sizing: border-box;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   line-height: 1.5;
-  background-color: #c9b5ab
+  background-color: #c9b5ab;
+}
+
+figure img {
+  width: 100%;
+  margin: 0 1em;
+}
+
+figure figcaption {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.navlist {
+  color: #8f2440;
+}
+
+nav ol a {
+  color: #8f2440;
 }
