@@ -1,0 +1,9 @@
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif; */
+
+html {
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 1.5;
+  background-color: #c9b5ab
+}
