@@ -19,8 +19,9 @@ figure figcaption {
   text-align: center;
 }
 
-.navlist {
-  color: #8f2440;
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
 
 nav ol a {
