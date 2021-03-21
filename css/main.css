@@ -8,9 +8,13 @@ html {
   background-color: #c9b5ab;
 }
 
-figure img {
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
   width: 100%;
-  margin: 0 1em;
+  margin: 0;
 }
 
 figure figcaption {
@@ -36,10 +40,67 @@ nav ol {
 .timeline {
   font-family: "PT Serif", serif;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
 }
 
 .comvar {
   font-family: "PT Serif", serif;
   font-weight: normal;
+  list-style-type: lower-greek;
+}
+
+.deeppurple {
+  font-family: "PT Serif", serif;
+}
+
+.jim {
+  font-family: "PT Serif", serif;
+}
+
+.pratt {
+  font-family: "PT Serif", serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #3f1622;
+}
+
+h2 {
+  color: #3f1622;
+}
+
+.serve {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+}
+
+dt {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+}
+
+dd {
+  font-family: "PT Serif", serif;
+}
+
+cite {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+}
+
+ul {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+}
+
+footer {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+}
+a {
+  color: #8f2440;
+  text-decoration: none;
 }
