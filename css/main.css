@@ -25,4 +25,20 @@ figure figcaption {
 
 nav ol a {
   color: #8f2440;
+  text-decoration: none;
+}
+
+nav ol {
+  list-style: none;
+}
+
+.timeline {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.comvar {
+  font-family: "PT Serif", serif;
+  font-weight: normal;
 }
